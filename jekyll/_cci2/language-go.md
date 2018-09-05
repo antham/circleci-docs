@@ -162,7 +162,7 @@ Now we know that our unit tests succeeded we can start our service and validate 
       - save_cache:
           key: v1-pkg-cache
           paths:
-            - "/go/pkg"
+            - ~/.cache/go-build
 
       - run:
           name: Start service
